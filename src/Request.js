@@ -1,6 +1,8 @@
-import env from "react-dotenv";
+// import env from "react-dotenv";
 
-const API_KEY = env.API_KEY;
+// const API_KEY = env.API_KEY;
+
+const API_KEY = "8956afc898faa51411f90d8a0e83a840";
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
